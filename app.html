@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earnova</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#111827;
+    padding-bottom:30px;
+}
+
+.header{
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+    color:white;
+    padding:28px 20px 45px;
+    border-radius:0 0 28px 28px;
+}
+
+.header h1{
+    font-size:28px;
+    margin-bottom:7px;
+}
+
+.header p{
+    font-size:14px;
+    opacity:.9;
+}
+
+.balance{
+    background:white;
+    margin:-25px 18px 22px;
+    padding:22px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.balance small{
+    color:#6b7280;
+}
+
+.amount{
+    font-size:30px;
+    font-weight:bold;
+    margin-top:7px;
+}
+
+.amount span{
+    color:#16a34a;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    padding:0 18px;
+}
+
+.card{
+    background:white;
+    padding:20px 12px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.icon{
+    font-size:32px;
+    margin-bottom:9px;
+}
+
+.card h3{
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+.card p{
+    font-size:12px;
+    color:#6b7280;
+}
+
+.title{
+    padding:25px 18px 10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.task{
+    background:white;
+    margin:10px 18px;
+    padding:17px;
+    border-radius:17px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+}
+
+.task-left{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.task-icon{
+    width:45px;
+    height:45px;
+    background:#dcfce7;
+    border-radius:13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+}
+
+.task h4{
+    font-size:14px;
+}
+
+.task p{
+    font-size:11px;
+    color:#6b7280;
+    margin-top:4px;
+}
+
+.reward{
+    color:#16a34a;
+    font-weight:bold;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>💰 Earnova</h1>
+    <p>Earn rewards by completing simple activities.</p>
+</div>
+
+<div class="balance">
+    <small>Your Balance</small>
+    <div class="amount">
+        0.00 <span>USDT</span>
+    </div>
+</div>
+
+<div class="grid">
+
+    <div class="card" onclick="alert('📺 Watch Ads coming soon!')">
+        <div class="icon">📺</div>
+        <h3>Watch Ads</h3>
+        <p>Watch & earn</p>
+    </div>
+
+    <div class="card" onclick="alert('🎁 Daily Bonus coming soon!')">
+        <div class="icon">🎁</div>
+        <h3>Daily Bonus</h3>
+        <p>Claim reward</p>
+    </div>
+
+    <div class="card" onclick="alert('👥 Referral system coming soon!')">
+        <div class="icon">👥</div>
+        <h3>Invite Friends</h3>
+        <p>Earn rewards</p>
+    </div>
+
+    <div class="card" onclick="alert('💳 Withdrawal coming soon!')">
+        <div class="icon">💳</div>
+        <h3>Withdraw</h3>
+        <p>Request payment</p>
+    </div>
+
+</div>
+
+<div class="title">
+    📋 Available Tasks
+</div>
+
+<div class="task">
+    <div class="task-left">
+        <div class="task-icon">📺</div>
+        <div>
+            <h4>Watch Advertisement</h4>
+            <p>Complete an advertisement</p>
+        </div>
+    </div>
+
+    <div class="reward">
+        + Reward
+    </div>
+</div>
+
+<div class="task">
+    <div class="task-left">
+        <div class="task-icon">🎁</div>
+        <div>
+            <h4>Daily Check-in</h4>
+            <p>Come back every day</p>
+        </div>
+    </div>
+
+    <div class="reward">
+        + Bonus
+    </div>
+</div>
+
+</body>
+  </html>
